@@ -1,1 +1,210 @@
-/* This file is for your main application css. */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.top {
+  flex: 2;
+}
+
+.header {
+  align-items: center;
+  background-color: #5c585e;
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  color: #fed423;
+  display: inline-block;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.logo:hover {
+  color: #dcb71a;
+  text-decoration: none;
+}
+
+.login {
+  color: #fed423;
+  font-size: 16px;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.login:hover {
+  color: #dcb71a;
+}
+
+.signup {
+  background-color: #fed423;
+  border-radius: 3px;
+  color: #5c585e;
+  font-size: 16px;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.signup:hover {
+  background-color: #dcb71a;
+  color: #5c585e;
+  text-decoration: none;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.intro {
+  margin: 40px 0;
+}
+
+.banner {
+  display: flex;
+}
+
+.math-tutors,
+.language-tutors,
+.science,
+.music {
+  display: inline-block;
+  margin: 0;
+}
+
+.math-tutors {
+  color: #dcb71a;
+}
+
+.math-tutors:hover {
+  color: #c5a417;
+  text-decoration: none;
+}
+
+.language-tutors:hover {
+  text-decoration: none;
+}
+
+.science-tutors {
+  color: #fed423;
+}
+
+.science-tutors:hover {
+  color: #dcb71a;
+  text-decoration: none;
+}
+
+.music-tutors {
+  color: #23527c;
+}
+
+.music-tutors:hover {
+  color: #163550;
+  text-decoration: none;
+}
+
+.math,
+.language,
+.science,
+.music {
+  flex: 1;
+  padding: 20px;
+}
+
+.math {
+  background-color: #337ab7;
+}
+.math:hover {
+  background-color: #23527c;
+}
+
+.language {
+  background-color: #fed423;
+}
+
+.language:hover {
+  background-color: #dcb71a;
+}
+
+.science {
+  background-color: #23527c;
+}
+
+.science:hover {
+  background-color: #163550;
+}
+.music {
+  background-color: #dcb71a;
+}
+
+.music:hover {
+  background-color: #c5a417;
+}
+
+.all-subjects {
+  margin: 30px;
+}
+
+.follow {
+  color: #5c585e;
+  font-size: 17px;
+  margin-bottom: 0;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.social:last-child {
+  margin-right: 0;
+}
+
+.facebook,
+.linkedin,
+.twitter {
+  color: inherit;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+i.fa.fa-facebook,
+i.fa.fa-linkedin,
+i.fa.fa-twitter {
+  color: #fed423;
+}
+
+i.fa.fa-circle {
+  color: #5c585e
+}
+
+.fa-stack:hover .fa-circle {
+  color: #2e2c2f;
+}
+
+.links {
+  color: #5c585e;
+  margin-right: 10px;
+}
+
+.links:last-child {
+  margin-right: 0;
+}
+
+.footer {
+  align-items: center;
+  background-color: #fed423;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}

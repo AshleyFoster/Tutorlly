@@ -1,36 +1,40 @@
-<div class="jumbotron">
-  <h2><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h2>
-  <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
-</div>
-
-<div class="row marketing">
-  <div class="col-lg-6">
-    <h4>Resources</h4>
-    <ul>
-      <li>
-        <a href="http://phoenixframework.org/docs/overview">Guides</a>
-      </li>
-      <li>
-        <a href="https://hexdocs.pm/phoenix">Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-    </ul>
+<div class="home-container">
+  <div class="intro">
+    <h2>Start learning today!</h2>
+    <p class="lead">Tutorlly connects users to tutors/teachers</p>
   </div>
 
-  <div class="col-lg-6">
-    <h4>Help</h4>
-    <ul>
-      <li>
-        <a href="http://groups.google.com/group/phoenix-talk">Mailing list</a>
-      </li>
-      <li>
-        <a href="http://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">@elixirphoenix</a>
-      </li>
-    </ul>
+  <h3>Look for lessons in one of the following subjects:</h3>
+  <div class="banner">
+    <div class="math">
+      <a href="#", class="math-tutors">
+        <i class="fa fa-superscript fa-5x" aria-hidden="true"></i>
+        <h4>Math</h4>
+      </a>
+    </div>
+
+    <div class="language">
+      <a href="#", class="language-tutors">
+        <i class="fa fa-language fa-5x" aria-hidden="true"></i>
+        <h4>Language</h4>
+      </a>
+    </div>
+    <div class="science">
+      <a href="#", class="science-tutors">
+        <i class="fa fa-code fa-5x" aria-hidden="true"></i>
+        <h4>Science</h4>
+      </a>
+    </div>
+    <div class="music">
+      <a href="#", class="music-tutors">
+        <i class="fa fa-music fa-5x" aria-hidden="true"></i>
+        <h4>Music</h4>
+      </a>
+    </div>
+  </div>
+
+  <div class="all-subjects">
+    <h4>Don't see what you're looking for?</h4>
+    <a href="#", class="subjects">More Subjects</a>
   </div>
 </div>
